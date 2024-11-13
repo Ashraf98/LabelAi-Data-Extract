@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a web-based application that processes supplement fact panels from images uploaded by users. It uses Optical Character Recognition (OCR) to extract text from supplement labels, then cleans and formats the data. The extracted data is analyzed and returned to the user in a structured format, including nutritional information, other ingredients, and contain statements. The application then generates an Excel file with this structured data, making it easier for users to organize and manage the supplement information.
+This project is a web-based application that processes supplement fact panels from images uploaded by users. It uses Optical Character Recognition (OCR) from AWS to extract text from supplement labels, then cleans and formats the data using OpenAI. The extracted data is analyzed and returned to the user in a structured format, including nutritional information, other ingredients, and contain statements. The application then generates an Excel file with this structured data, making it easier for users to organize and manage the supplement information.
 
 ## Demo of Tool:
 
