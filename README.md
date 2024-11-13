@@ -38,11 +38,17 @@ Folder Structure
 bash
 Copy code
 .
-├── app.py               # Main Flask application
+
+├── AwsOCR-AI.py               # Main Flask application
+
 ├── templates/
+
 │   └── index.html       # HTML template for the home page
+
 ├── requirements.txt     # List of Python dependencies
+
 └── README.md            # Project documentation
+
 Dependencies
 The project uses the following Python packages:
 
