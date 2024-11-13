@@ -52,10 +52,16 @@ Create a .env file in the root directory and add your API keys:
 
 env
 Copy code
+
 OPENAI_API_KEY=your-api-key-here
+
 AWS_ACCESS_KEY_ID=your-aws-access-key-id
+
 AWS_SECRET_ACCESS_KEY=your-aws-secret-access-key
+
 AWS_DEFAULT_REGION=us-east-1
+
+
 Run the py app:
 
 Usage
