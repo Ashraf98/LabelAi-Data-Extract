@@ -1,4 +1,4 @@
-# Project Name
+# Ashraf's Label Imagery Data Extraction Project using AWS Textract and OpenAI
 
 ## Overview
 
