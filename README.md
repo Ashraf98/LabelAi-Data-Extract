@@ -25,6 +25,8 @@ This project is a web-based application that processes supplement fact panels fr
 - **AWS Textract**: A service from Amazon Web Services (AWS) that automatically extracts text from scanned documents.
 - **OpenAI**: Used for further formatting and processing the extracted data using GPT models.
 - **Pandas & XlsxWriter**: For organizing and exporting the data into Excel format.
+Demo of Tool:
+https://github.com/user-attachments/assets/bd9b70b0-cb94-4001-a22d-5666dd1b7df6
 
 ## Installation
 
