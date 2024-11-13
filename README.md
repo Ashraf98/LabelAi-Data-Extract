@@ -4,7 +4,11 @@
 
 This project is a web-based application that processes supplement fact panels from images uploaded by users. It uses Optical Character Recognition (OCR) to extract text from supplement labels, then cleans and formats the data. The extracted data is analyzed and returned to the user in a structured format, including nutritional information, other ingredients, and contain statements. The application then generates an Excel file with this structured data, making it easier for users to organize and manage the supplement information.
 
-### Key Features:
+## Demo of Tool:
+
+![til](https://github.com/user-attachments/assets/dfd065df-bf56-4a25-8299-a60f19d9bfdc)
+
+## Key Features:
 - **OCR-based Text Extraction**: Uses AWS Textract to extract text from uploaded supplement panel images.
 - **Data Cleaning & Formatting**: Cleans the extracted text and formats it into a structured, tabular format.
 - **AI-enhanced Data Parsing**: Utilizes OpenAI's GPT model to further format and structure the extracted data into a more human-readable form.
@@ -25,8 +29,10 @@ This project is a web-based application that processes supplement fact panels fr
 - **AWS Textract**: A service from Amazon Web Services (AWS) that automatically extracts text from scanned documents.
 - **OpenAI**: Used for further formatting and processing the extracted data using GPT models.
 - **Pandas & XlsxWriter**: For organizing and exporting the data into Excel format.
-Demo of Tool:
-https://github.com/user-attachments/assets/bd9b70b0-cb94-4001-a22d-5666dd1b7df6
+
+
+
+
 
 ## Installation
 
