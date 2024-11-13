@@ -14,6 +14,7 @@ This project is a web-based application that processes supplement fact panels fr
 - **AI-enhanced Data Parsing**: Utilizes OpenAI's GPT model to further format and structure the extracted data into a more human-readable form.
 - **Excel Export**: Allows users to download the structured data as an Excel file, which includes separate sheets for nutritional information, other ingredients, and extracted lines.
 - **Customizable Input**: Users can specify whether the supplement facts include "other ingredients" and "contain statements", providing flexibility in the types of supplements processed.
+- **Ongoing Improvements**: Currently working on adding more worksheets to the Excel export that will split out the "serving per container," "serving size," and "calories per serving," making it easier to utilize that data when needed.
 
 ## How It Works
 
