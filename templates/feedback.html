@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+</head>
+<body>
+    <h2>Review Extracted Text</h2>
+    <div id="feedback-section">
+        {% if feedback_data %}
+        {% for item in feedback_data %}
+        <div>
+            <p>Confidence: {{ item.confidence }}%</p>
+            <textarea id="corrected-{{ loop.index0 }}">{{ item.text }}</textarea>
+            <button onclick="submitFeedback('image_id', '{{ item.text }}', document.getElementById('corrected-{{ loop.index0 }}').value, {{ item.confidence }})">
+                Submit Correction
+            </button>
+        </div>
+        {% endfor %}
+        {% else %}
+        <p>No data available for review.</p>
+        {% endif %}
+    </div>
+</body>
+</html>

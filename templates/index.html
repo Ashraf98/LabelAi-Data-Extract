@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LabelOCRAi - Your AI-Driven Label Data Solution</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Welcome to LabelOCRAi</h1>
+            <p>Product Data Extraction with AI</p>
+        </div>
+    </header>
+
+
+    <!-- Upload Section -->
+    <section id="upload-section" class="upload-section">
+        <div class="container">
+            <h2>Upload Supplement Facts Panel</h2>
+            <form action="/upload" method="post" enctype="multipart/form-data">
+                <input type="file" name="image" accept="image/png, image/jpeg" required>
+                <button type="submit">Upload</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+
+
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+        </div>
+    </footer>
+</body>
+</html>
